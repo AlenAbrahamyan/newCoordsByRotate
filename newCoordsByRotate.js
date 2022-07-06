@@ -1,3 +1,4 @@
+//
 export const newCoordsByRotate = (initCoords, axis, rotate) => {
   const R = Math.sqrt((axis.x - initCoords.x) ** 2 + (axis.y - initCoords.y) ** 2)
   
